@@ -10,7 +10,7 @@ import UIKit
 
 class StudentsTableViewController: UITableViewController {
     
-    @IBAction func addStudent(_ sender: Any) {
+    @IBAction func addStudent(_ sender: Any) {        
         let newStudent = Student(context: CoreDataManager.sharedManager.context)
         newStudent.name = "DNREDDi"
         newStudent.rollNo = 0001
